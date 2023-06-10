@@ -167,6 +167,10 @@ header ul {
   cursor: pointer;
 }
 
+.view-btn:hover {
+  text-decoration: none;
+}
+
 /* Footer */
 
 footer {
