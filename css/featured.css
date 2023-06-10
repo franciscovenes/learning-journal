@@ -1,0 +1,20 @@
+/* Featured article page */
+
+.featured-article {
+  padding-top: 2em;
+}
+
+.featured-article img {
+  width: 100%;
+  margin: 2em 0;
+}
+
+.featured-article h4 {
+  font-size: 1em;
+}
+
+@media (min-width: 768px) {
+  .featured-article h4 {
+    font-size: 1.25em;
+  }
+}

@@ -1,0 +1,44 @@
+/* About me */
+
+.about-article {
+  padding-top: 2em;
+}
+
+.about-article h1 {
+  font-size: 2.2rem;
+}
+
+.about-article-header img {
+  margin: 2em 0;
+}
+
+@media (min-width: 768px) {
+  .about-article-header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas:
+      "avatar title"
+      "avatar subtitle";
+
+    padding: 2em 0;
+  }
+
+  .about-article-header img {
+    grid-area: avatar;
+    margin-right: 2em;
+  }
+
+  .about-article-header h2 {
+    grid-area: title;
+    align-self: end;
+  }
+
+  .article-body h3 {
+    font-size: 1.25rem;
+  }
+
+  .about-article-header p {
+    grid-area: subtitle;
+    align-self: start;
+  }
+}
